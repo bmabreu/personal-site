@@ -25,9 +25,13 @@ hr {
 }
 .title {
   color: #303030;
+  /* color: white; */
   font-size: 60px;
   padding-bottom: 40px;
   text-transform: uppercase;
+}
+.about .title {
+  color: white
 }
 
 /* START NAVIGATION */
@@ -86,7 +90,7 @@ hr {
 
 /* START HOME */
 .templatemo-home {
-  background: url('../images/home-bg.jpg');
+  background: url('../images/home-bg-dubai.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -105,6 +109,7 @@ hr {
 .tm-home-title,
 .tm-home-subtitle {
   text-transform: uppercase;
+  color: white
 }
 .tm-home-title {
   font-size: 60px;
@@ -133,6 +138,9 @@ hr {
 }
 .home-text {
   padding: 10px 80px;
+}
+.bio-intro {
+  color: white
 }
 /* END HOME */
 
@@ -317,7 +325,7 @@ hr {
 .tm-info-label {
   font-weight: bold;
   display: inline-block;
-  width: 90px;
+  /* width: 90px; */
 }
 .tm-progress {
   background: #fff;
@@ -342,16 +350,19 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/about-bg.jpg');
+  background: url('../images/home-solo-comp.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
   padding-top: 60px;
   padding-bottom: 100px;
+  height: 800px
 }
 
 .tm-about-body {
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* border: 10px outset rgba(0, 0, 0, 0.5); */
 }
 
 /* END ABOUT */
